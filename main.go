@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"newProject/pkg" //
+)
 
 func main() {
-    fmt.Println("testing2")
+	sum := pkg.Add(2, 3)
+	reversed := pkg.Reverse("hello")
+	fmt.Println(sum, reversed) // 5 olleh
 }
