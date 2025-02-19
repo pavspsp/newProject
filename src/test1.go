@@ -1,4 +1,4 @@
-package pkg
+package src
 
 func Reverse(s string) string {
 	runes := []rune(s)

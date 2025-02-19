@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"newProject/pkg" //
+	pkg "newProject/src" //
 )
 
 func main() {
